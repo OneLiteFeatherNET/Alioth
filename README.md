@@ -1,5 +1,7 @@
 # Alioth
 
+> [!CAUTION]
+> This plugin is just a draft and currently not ready to serve on production or dev env
 
 ___
 
