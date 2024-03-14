@@ -1,0 +1,3 @@
+shop:
+  # Available placeholders: <status> | Show shop status
+  display-format: "<gold>Shop <gray>| <reset><status>"
