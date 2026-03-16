@@ -39,7 +39,7 @@ tasks {
         dependsOn(reobfJar)
     }
     compileKotlin {
-        kotlinOptions.jvmTarget = "18"
+        kotlinOptions.jvmTarget = "17"
     }
     runServer {
         minecraftVersion("1.20.4")
@@ -61,6 +61,6 @@ bukkit {
 
 kotlin {
     jvmToolchain {
-        languageVersion.set(JavaLanguageVersion.of(18))
+        languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
