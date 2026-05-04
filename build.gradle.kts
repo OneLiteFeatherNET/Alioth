@@ -19,7 +19,7 @@ repositories {
 val exposedVersion: String by project
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:26.1.2.build.60-stable")
     paperweight.paperDevBundle("1.20.4-R0.1-SNAPSHOT")
 
     implementation("org.jetbrains.exposed:exposed-core:$exposedVersion")
