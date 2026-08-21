@@ -6,7 +6,14 @@
   "packages": {
     ".": {
       "package-name": "Alioth",
-      "changelog-path": "CHANGELOG.md"
+      "changelog-path": "CHANGELOG.md",
+      "extra-files": [
+        {
+          "type": "generic",
+          "path": "build.gradle.kts"
+        }
+      ]
     }
-  }
+  },
+  "bootstrap-sha": "15fec7ae2660d157f91b601eb61cd20501d6bf7a"
 }
