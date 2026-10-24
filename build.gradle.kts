@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "net.onelitefeather"
-version = "1.0-SNAPSHOT"
+version = "0.0.0" // x-release-please-version
 
 repositories {
     mavenCentral()
